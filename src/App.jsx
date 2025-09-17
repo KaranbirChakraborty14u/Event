@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
+import OurMission from "./pages/about/OurMission.jsx";
+import Founder from "./pages/about/Founder.jsx";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Contact from "./pages/contact/Contact";
 import TeamDetails from "./pages/team/TeamDetails";
@@ -8,20 +10,21 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import AppLayout from "./components/AppLayout";
 import Services from "./pages/services/Services";
 import CorporateEvents from "./pages/portfolio/CorporateEvents";
-import LargeFormateEvent from "./pages/portfolio/LargeFormateEvent";
-import Mice from "./pages/portfolio/Mice";
-import Brand from "./pages/portfolio/Brand";
+import SportsEvent from "./pages/portfolio/SportsEvent";
+import NGO from "./pages/portfolio/NGO";
 import Lifestyle from "./pages/portfolio/Lifestyle";
-import AllServices from "./pages/services/allservices";
+import Allservices from "./pages/services/allservices.jsx";
 import Brands from "./pages/services/Brands";
 import Branded from "./pages/services/Branded";
 import Website from "./pages/services/Website";
 import Max from "./pages/services/Max";
+import LifestyleEvents from "./pages/services/LifestyleEvents";
 
 const App = () => {
+  
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const [isScrolling, setIsScrolling] = useState(false);
-  const [scrollPercentage, setScrollPercentage] = useState(0); // Track scroll progress
+  const [scrollPercentage, setScrollPercentage] = useState(0);
 
   // Handle mouse movement for custom cursor
   useEffect(() => {
@@ -72,23 +75,26 @@ const App = () => {
       children: [
         { path: "/", element: <Home /> },
         { path: "/about", element: <About /> },
+        { path: "/ourstory", element: <OurMission /> },
+        // { path: "/ourvision", element: <OurVision /> },
+        { path: "/founder", element: <Founder /> },
+
         { path: "/portfolio", element: <Portfolio /> },
         { path: "/contact", element: <Contact /> },
         { path: "/team-details", element: <TeamDetails /> },
         { path: "/services", element: <Services /> },
-        { path: "/allservices", element: <AllServices /> },
+        { path: "/allservices", element: <Allservices /> },
 
         { path: "/brands", element: <Brands /> },
         { path: "/branded", element: <Branded /> },
         { path: "/website", element: <Website /> },
         { path: "/max", element: <Max /> },
+        { path: "/lifestyleevents", element: <LifestyleEvents /> },
 
         { path: "/corporateEvents", element: <CorporateEvents /> },
-         { path: "/largeFormateEvent", element: <LargeFormateEvent /> },
-          { path: "/mice", element: <Mice /> },
-          { path: "/brand", element: <Brand /> },
-           { path: "/lifestyle", element: <Lifestyle /> },
-
+        { path: "/sportsEvent", element: <SportsEvent /> },
+        { path: "/ngo", element: <NGO /> },
+        { path: "/lifestyle", element: <Lifestyle /> },
       ],
     },
   ]);

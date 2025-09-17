@@ -12,20 +12,21 @@ body {
   color: #111;
 }
 
-.mice-events {
+.ngo-events {
   padding: 4rem 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.mice-header {
+/* === Header === */
+.ngo-header {
   text-align: left;
   padding-left: 2rem;
   max-width: 700px;
   margin-bottom: 4rem;
 }
 
-.mice-breadcrumb {
+.ngo-breadcrumb {
   font-size: 0.75rem;
   color: #999;
   text-transform: uppercase;
@@ -45,134 +46,129 @@ body {
   text-decoration: underline;
 }
 
-.mice-header h1 {
+.ngo-header h1 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
-.mice-header h1 span {
+.ngo-header h1 span {
   color: orange;
 }
 
-.mice-subline {
+.ngo-subline {
   font-size: 1.1rem;
   color: #666;
   margin-top: 1rem;
 }
 
-.mice-hero {
+/* === Pattern Layout === */
+.ngo-section-pattern {
+  margin-bottom: 5rem;
+}
+
+/* Big Featured Image */
+.ngo-big {
   position: relative;
-  max-width: 1100px;
-  margin: 3rem auto 5rem;
+  margin-bottom: 2rem;
   border-radius: 22px;
   overflow: hidden;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
 }
 
-.mice-hero img {
+.ngo-big img {
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.5s ease;
 }
 
-.mice-hero:hover img {
+.ngo-big:hover img {
   transform: scale(1.02);
 }
 
-.mice-overlay {
+.ngo-overlay {
   position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 1.5rem;
-  color: white;
-  border-radius: 12px;
-  max-width: 400px;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 1rem 1.5rem;
+  color: #fff;
+  border-radius: 10px;
 }
 
-.mice-overlay .event-meta {
-  font-size: 0.9rem;
-  text-transform: uppercase;
+.ngo-overlay h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
   color: orange;
-  font-weight: 600;
-  margin-bottom: 0.3rem;
 }
 
-.mice-grid {
+/* Small Grid */
+.ngo-small-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin-bottom: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
 }
 
-.mice-card {
-  background: #fff;
-  border-radius: 18px;
+.ngo-small {
+  position: relative;
   overflow: hidden;
+  border-radius: 16px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
 
-.mice-card:hover {
+.ngo-small:hover {
   transform: translateY(-6px);
 }
 
-.mice-card img {
+.ngo-small img {
   width: 100%;
-  height: 250px;
+  height: 220px;
   object-fit: cover;
   transition: transform 0.4s ease;
 }
 
-.mice-card:hover img {
-  transform: scale(1.03);
+.ngo-small:hover img {
+  transform: scale(1.05);
 }
 
-.mice-info {
-  padding: 1.2rem 1.4rem 2rem;
-}
-
-.mice-info h3 {
-  font-size: 1.4rem;
-  margin: 0.5rem 0;
-  font-weight: 700;
-}
-
-.mice-info p {
+.ngo-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  padding: 0.8rem 1rem;
   font-size: 0.95rem;
-  color: #444;
-  line-height: 1.5;
 }
 
-.event-meta {
-  font-size: 0.85rem;
+.ngo-info h3 {
+  font-size: 1rem;
   font-weight: 600;
-  color: orange;
-  text-transform: uppercase;
-  margin-bottom: 0.3rem;
 }
 
-.mice-cta {
+/* === Call to Action === */
+.ngo-cta {
   text-align: center;
   margin: 5rem auto 3rem;
   max-width: 600px;
 }
 
-.mice-cta h2 {
+.ngo-cta h2 {
   font-size: 2.4rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
-.mice-cta p {
+.ngo-cta p {
   font-size: 1.1rem;
   color: #555;
   margin-bottom: 2rem;
 }
 
-.mice-cta-button {
+.ngo-cta-button {
   background-color: orange;
   color: white;
   padding: 1rem 2.6rem;
@@ -183,138 +179,124 @@ body {
   transition: background 0.3s ease;
 }
 
-.mice-cta-button:hover {
+.ngo-cta-button:hover {
   background-color: #cc7000;
 }
 
-/* === Responsive: Tablets and Mobiles (≤768px) === */
+/* === Responsive (≤768px) === */
 @media screen and (max-width: 768px) {
-  .mice-events {
+  .ngo-events {
     padding: 3rem 1rem;
   }
 
-  .mice-header {
+  .ngo-header {
     padding-left: 1rem;
     margin-bottom: 3rem;
   }
 
-  .mice-breadcrumb {
+  .ngo-breadcrumb {
     font-size: 0.7rem;
     padding-top: 5rem;
   }
 
-  .mice-header h1 {
+  .ngo-header h1 {
     font-size: 2rem;
     line-height: 1.3;
   }
 
-  .mice-subline {
+  .ngo-subline {
     font-size: 1rem;
     margin-top: 0.8rem;
   }
 
-  .mice-hero {
-    margin: 2rem 0;
+  .ngo-big {
     border-radius: 16px;
   }
 
-  .mice-hero img {
+  .ngo-big img {
     border-radius: 16px;
   }
 
-  .mice-overlay {
+  .ngo-overlay {
     left: 1rem;
     bottom: 1rem;
-    padding: 1rem;
+    padding: 0.8rem 1rem;
     font-size: 0.85rem;
-    max-width: 90%;
-    border-radius: 8px;
   }
 
-  .mice-overlay .event-meta {
-    font-size: 0.75rem;
-  }
-
-  .mice-grid {
-    gap: 1.5rem;
-  }
-
-  .mice-card img {
-    height: 180px;
-  }
-
-  .mice-info {
-    padding: 1rem 1.2rem 1.5rem;
-  }
-
-  .mice-info h3 {
+  .ngo-overlay h2 {
     font-size: 1.2rem;
   }
 
-  .mice-info p {
-    font-size: 0.9rem;
+  .ngo-small-grid {
+    gap: 1rem;
   }
 
-  .mice-cta {
+  .ngo-small img {
+    height: 180px;
+  }
+
+  .ngo-info {
+    font-size: 0.85rem;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .ngo-info h3 {
+    font-size: 0.95rem;
+  }
+
+  .ngo-cta {
     margin: 4rem auto 2rem;
     padding: 0 1rem;
   }
 
-  .mice-cta h2 {
+  .ngo-cta h2 {
     font-size: 2rem;
   }
 
-  .mice-cta p {
+  .ngo-cta p {
     font-size: 1rem;
   }
 
-  .mice-cta-button {
+  .ngo-cta-button {
     font-size: 1rem;
     padding: 0.8rem 2.2rem;
   }
 }
 
-/* === Extra Small Devices (≤480px) === */
+/* === Extra Small (≤480px) === */
 @media screen and (max-width: 480px) {
-  .mice-header h1 {
+  .ngo-header h1 {
     font-size: 1.6rem;
   }
 
-  .mice-subline {
+  .ngo-subline {
     font-size: 0.95rem;
   }
 
-  .mice-card img {
+  .ngo-small img {
     height: 160px;
   }
 
-  .mice-info h3 {
-    font-size: 1.05rem;
+  .ngo-info h3 {
+    font-size: 0.9rem;
   }
 
-  .mice-info p {
-    font-size: 0.88rem;
-  }
-
-  .mice-cta h2 {
+  .ngo-cta h2 {
     font-size: 1.7rem;
   }
 
-  .mice-cta p {
+  .ngo-cta p {
     font-size: 0.95rem;
   }
 
-  .mice-cta-button {
+  .ngo-cta-button {
     font-size: 0.95rem;
     padding: 0.7rem 1.8rem;
   }
 
-  .mice-overlay {
+  .ngo-overlay {
     font-size: 0.8rem;
-    padding: 0.8rem;
-  }
-
-  .mice-overlay .event-meta {
-    font-size: 0.7rem;
+    padding: 0.6rem 0.8rem;
   }
 }

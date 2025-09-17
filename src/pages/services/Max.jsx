@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../../components/footer/Footer";
 
-const Max = () => {
+const BrandCommunication = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleItem = (index) => {
@@ -18,24 +18,32 @@ const Max = () => {
 
   const services = [
     {
-      title: "UX AUDITS",
-      description: "We evaluate your user experience to uncover friction points and improve usability.We evaluate your user experience to uncover friction points and improve usability.We evaluate your user experience to uncover friction points and improve usability.",
+      title: "OUT OF HOME SOLUTIONS (OOH)",
+      description: "High-impact outdoor advertising—from billboards to transit media—ensuring your brand captures attention in the real world.",
     },
     {
-      title: "DESIGN THINKING",
-      description: "We apply a problem-solving approach that starts with understanding your users' needs.We apply a problem-solving approach that starts with understanding your users' needs.We apply a problem-solving approach that starts with understanding your users' needs.",
+      title: "RADIO SPOTS & CAMPAIGNS",
+      description: "Engaging radio campaigns crafted to communicate your message to a wide and diverse audience through compelling audio storytelling.",
     },
     {
-      title: "WIREFRAMING",
-      description: "We build layout blueprints to help visualize product functionality and flow.We build layout blueprints to help visualize product functionality and flow.We build layout blueprints to help visualize product functionality and flow.We build layout blueprints to help visualize product functionality and flow.",
+      title: "DIGITAL ADS & ADVERTORIALS",
+      description: "Performance-driven digital advertising strategies including display ads, video, and native content for online engagement.",
     },
     {
-      title: "AESTHETICS",
-      description: "We create visually pleasing designs that align with your brand and appeal to users.We create visually pleasing designs that align with your brand and appeal to users.We create visually pleasing designs that align with your brand and appeal to users.We create visually pleasing designs that align with your brand and appeal to users.",
+      title: "BRAND IDENTITY DEVELOPMENT",
+      description: "Building strong brand identities through logos, visual guidelines, and consistent messaging across platforms.",
     },
     {
-      title: "METHODOLOGIES",
-      description: "We follow industry-standard processes to ensure quality and efficiency.We follow industry-standard processes to ensure quality and efficiency.We follow industry-standard processes to ensure quality and efficiency.We follow industry-standard processes to ensure quality and efficiency.",
+      title: "SOCIAL MEDIA CAMPAIGNS",
+      description: "Creative and data-led social media campaigns designed to grow reach, engagement, and brand loyalty.",
+    },
+    {
+      title: "PRINT & NATIVE ADVERTISING",
+      description: "Targeted print media solutions including magazine spreads and native ads that blend storytelling with brand value.",
+    },
+    {
+      title: "AMBIENT MEDIA & INSTALLATION",
+      description: "Innovative brand installations and ambient media placements to surprise, delight, and leave a memorable impression.",
     },
   ];
 
@@ -48,12 +56,12 @@ const Max = () => {
           &nbsp; / &nbsp;
           <Link to="/allservices" className="breadcrumb-l" data-aos="fade-up">SERVICES</Link>
           &nbsp; / &nbsp;
-          <span className="breadcrumb-cur" data-aos="fade-up">MAX</span>
+          <span className="breadcrumb-cur" data-aos="fade-up">BRAND COMMUNICATION</span>
         </p>
 
         <h1 className="hero-t" data-aos="fade-up">
-          Branding <span className="light-w">and</span> <br />
-          <span className="highlig">Identity</span> <span className="light-w">Design</span>
+          Brand <span className="light-w">Communication</span> <br />
+          <span className="highlig">and</span> <span className="light-w">Advertising</span>
         </h1>
 
         <a href="#our-services" className="our-works-l" data-aos="fade-up">
@@ -85,13 +93,11 @@ const Max = () => {
       <div className="portfolio-cta" data-aos="fade-up">
         <div className="cta-content" data-aos="fade-up">
           <p className="cta-subtext" data-aos="fade-up">
-            Looking to make your mark? We'll help you turn your project into a
-            success story.
+            Want your brand to be heard, seen, and remembered? We craft communication that connects.
           </p>
           <h2>
-            Ready to bring <strong>your</strong> ideas to <strong>life?</strong>
-            <br />
-            <span>We're</span> here to help
+            Let’s amplify your <strong>brand</strong> <br />
+            <span>through smart</span> storytelling.
           </h2>
           <a href="/contact" className="cta-button">
             Contact Us <span className="arrow">→</span>
@@ -100,9 +106,8 @@ const Max = () => {
       </div>
 
       <Footer />
-
     </section>
   );
 };
 
-export default Max;
+export default BrandCommunication;

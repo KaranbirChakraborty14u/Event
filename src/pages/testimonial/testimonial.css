@@ -124,6 +124,7 @@
 }
 
 .testimonial-content {
+  margin-top: -90px;
   max-width: 720px;
   margin: 0 auto;
   position: relative;

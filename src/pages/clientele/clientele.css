@@ -1,0 +1,62 @@
+/* CLIENTELE SECTION (scroll right to left) */
+.clientele-marquee-section {
+  background: linear-gradient(135deg, #f0f2f5 0%, #dbe4f3 100%);
+  padding: 100px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.clientele-marquee-section h2 {
+  color: #ff9800;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 70px;
+  margin-top: -30px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.clientele-marquee-section .dotssss {
+  color: #ff5a5f;
+  margin-right: 6px;
+}
+
+.marqueeeeee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.trackssss {
+  display: flex;
+  width: fit-content;
+  animation: scroll-right-to-left 140s linear infinite;
+}
+
+.logo-boxssss {
+  flex: 0 0 auto;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo-boxssss img {
+  max-height: 90px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logo-boxssss img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll-right-to-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

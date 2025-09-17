@@ -146,7 +146,7 @@
 
 .member-info {
   position: absolute;
-  bottom: 100px;
+  bottom: 80px;
   left: 50%;
   transform: translate(-50%, 20px);
   color: #fff;
@@ -326,5 +326,139 @@
 
   .gold-line {
     height: 4px;
+  }
+}
+
+/* ✅ Tablet View (769px–1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .team-section {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .team-subtitle {
+    font-size: 52px;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .team-text {
+    flex: 1 1 100%;
+    padding-right: 0;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .team-text p {
+    font-size: 15px;
+    width: 80%;
+    margin: 30px auto;
+    line-height: 1.6;
+  }
+
+  .team-read-more {
+    margin: 2.5rem auto;
+    width: 210px;
+    height: 55px;
+    font-size: 0.95rem;
+  }
+
+  .read-more-text {
+    font-size: 14px;
+    left: 42%;
+  }
+
+  .team-images-grid {
+    grid-template-columns: repeat(2, 1fr); /* two columns for tablets */
+    gap: 1.5rem;
+    margin: 2rem auto 0 auto;
+    width: 90%;
+    justify-items: center;
+  }
+
+  .team-image-box {
+    max-width: 100%;
+    height: 320px;
+  }
+
+  .team-image-wrapper {
+    height: 100%;
+  }
+
+  .team-message {
+    font-size: 22px;
+    margin-top: 3rem;
+    margin-left: 0;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .member-info {
+    bottom: 70px;
+    font-size: 0.95rem;
+  }
+
+  .member-name {
+    font-size: 1.3rem;
+  }
+
+  .member-occupation {
+    font-size: 0.95rem;
+  }
+
+  .gold-line {
+    height: 4px;
+  }
+}
+
+/* ✅ Large Desktop (MacBook Air/Pro range) */
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+  .team-subtitle {
+    font-size: 64px; /* Keep readable */
+    margin-left: 180px; /* Reduce offset */
+  }
+
+  .team-text p {
+    width: 420px;
+    margin-left: 180px;
+  }
+
+  .team-read-more {
+    margin-left: 180px;
+  }
+
+  .team-images-grid {
+    margin-right: 180px;
+  }
+
+  .team-message {
+    margin-left: 180px;
+    font-size: 24px;
+  }
+}
+
+/* ✅ Ultra-Wide Screens (Retina 2K / 3K MacBooks) */
+@media screen and (min-width: 1921px) {
+  .team-section {
+    max-width: 1600px; /* lock content width */
+    margin: 0 auto;   /* center content */
+    padding: 4rem 2rem;
+  }
+
+  .team-subtitle,
+  .team-text p,
+  .team-read-more,
+  .team-message {
+    margin-left: 0; /* center instead of pushing left */
+    text-align: center;
+  }
+
+  .team-images-grid {
+    margin: 2rem auto;
+    justify-content: center;
   }
 }

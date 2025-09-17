@@ -2,70 +2,58 @@ import { useState, useEffect } from "react";
 import "./testimonial.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import user1 from "../../assets/12.jpg";
-import user2 from "../../assets/123.jpg";
-import user3 from "../../assets/1234.jpg";
-import user4 from "../../assets/12345.jpg";
-import user5 from "../../assets/12.jpg";
-import user6 from "../../assets/123.jpg";
-import user7 from "../../assets/1234.jpg";
 
 const testimonials = [
   {
-    name: "Sarah Newman",
-    company: "Envato Market",
-    image: user1,
-    text: "This creative agency stands out with their exceptional talent and expertise.Their ability to think outside the box and bring unique ideas to life is truly impressive. With meticulous attention to detail, they consistently deliver visually stunning and impactful work.",
+    name: "Raj & Priyal",
+    company: "Naming Ceremony",
+    text: "Our baby's naming ceremony was an incredibly special and meaningful occasion, and we couldn't have asked for a better event planner than Ishaan & his team. From the very beginning, they understood the significance of this milestone for our family and put their heart and soul into creating a beautiful and memorable ceremony.",
   },
   {
-    name: "Emily Carter",
-    company: "Tech Solutions",
-    image: user2,
-    text: "I had the pleasure of working with this creative agency, and I must say, they truly impressed me. They consistently think outside the box, resulting in impressive and impactful work. I highly recommend this agency for their consistent delivery of exceptional creative solutions.",
+    name: "Surabhi & Chirag",
+    company: "Wedding",
+    text: "The team at Kollective is simply outstanding. They took the time to understand our vision, and their creativity and attention to detail made our wedding truly magical. From the stunning decor to the seamless coordination, everything was executed flawlessly. They truly went above and beyond to make our day perfect, and we couldn't have asked for a better team by our side. We highly recommend them to anyone who wants their wedding dreams to come true.",
   },
   {
-    name: "James Taylor",
-    company: "VisionCorp",
-    image: user3,
-    text: "Creative, professional, and timely. I highly recommend them for anyone seeking standout digital experiences.With meticulous attention to detail, they consistently deliver visually stunning and impactful work.",
+    name: "Kangkana & Rahul",
+    company: "Wedding",
+    text: "Working with this Ishaan and his team was an absolute pleasure. Their passion for what they do is evident in every interaction. They went above and beyond to understand our unique vision and execute it flawlessly. Their creativity and attention to detail created a wedding that truly reflected our personalities. The entire team was professional, responsive, and a joy to work with. This was the best we could for our brother's wedding and we wholeheartedly recommend them to anyone seeking a truly exceptional wedding.",
   },
   {
-    name: "Lisa Moore",
-    company: "Bright Agency",
-    image: user4,
-    text: "Great collaboration and brilliant results. They made our brand look and feel premium. With meticulous attention to detail, they consistently deliver visually stunning and impactful work.",
+    name: "Diksha & Rounak",
+    company: "Wedding",
+    text: "Choosing the Kollective Group was the best decision we made for our big day. They listened to our ideas, offered valuable suggestions, and handled every little detail with care. Their organizational skills and calm demeanor put us at ease throughout the entire planning process. On the wedding day, everything ran like clockwork, allowing us to relax and fully enjoy every moment. We highly recommend their services to any couple looking for a stress-free and unforgettable wedding experience.",
   },
   {
-    name: "Michael Brooks",
-    company: "StartUp Inc.",
-    image: user5,
-    text: "Top-notch work from start to finish. Would love to work again on future projects. With meticulous attention to detail, they consistently deliver visually stunning and impactful work.",
+    name: "Ronak Baid",
+    company: "Engagement",
+    text: "A huge thank you to Ishaan and his incredible team for managing our engagement event so seamlessly! Everything was absolutely perfect and stress-free from start to finish. Truly appreciate all the hard work and attention to detail!.",
   },
   {
-    name: "Alex Turner",
-    company: "Design Hub",
-    image: user6,
-    text: "Clean design, fast development, and amazing support. A truly seamless experience! With meticulous attention to detail, they consistently deliver visually stunning and impactful work.",
+    name: "Ayushi Kothari",
+    company: "Wedding",
+    text: "A big thank you to Ishaan and his amazing team for managing our event so beautifully! Everything was flawlessly organized, and the attention to every little detail truly stood out. We’re so grateful for all the effort that went into making the day such a success!.",
   },
   {
-    name: "Daniel White",
-    company: "Inspire Co.",
-    image: user7,
-    text: "The team went above and beyond to deliver a visually stunning platform. Loved the outcome! With meticulous attention to detail, they consistently deliver visually stunning and impactful work.",
+    name: "Apurva & Vishal",
+    company: "Wedding",
+    text: "Our wedding day was an absolute dream come true, and we have our incredible wedding planner to thank for that. From the moment we met Ishaan and his team, they understood our vision and turned it into a reality. Their attention to detail, creativity, and professionalism were outstanding. Our guests still can't stop talking about how magical and flawlessly executed every aspect of our wedding was. We are forever grateful for their dedication and expertise.",
   },
+  {
+    name: "Gaurav Jain",
+    company: "Managing Director, G E Tradecom Pvt. Ltd. (Apple Authorised Distributor)",
+    text: "Kollective Events & Xperiences always understand what we want and deliver it perfectly. Their planning, creativity, and execution make every event smooth and successful. We truly value our partnership with them."
+  },
+  {
+    name: "K.C. Jindal",
+    company: "Director, G E Tradecom Pvt. Ltd. (Apple Authorised Distributor)",
+    text: "Working with Kollective is always hassle-free. The team is dependable, professional, and ensures everything is well taken care of. They make events stress-free for us."
+  }
 ];
 
 const Testimonial = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animationDirection, setAnimationDirection] = useState("");
-
-  const handleSetIndex = (newIndex) => {
-    if (newIndex === activeIndex) return;
-    setAnimationDirection(
-      newIndex > activeIndex ? "slide-right" : "slide-left"
-    );
-    setActiveIndex(newIndex);
-  };
 
   const prev = () => {
     if (activeIndex > 0) {
@@ -105,24 +93,6 @@ const Testimonial = () => {
           <span className="light">They Say!</span>
         </strong>
       </h2>
-
-      <div className="zigzag-avatars" data-aos="fade-up" data-aos-delay="200">
-        {testimonials.map((item, index) => (
-          <div
-            key={index}
-            className={`avatar-wrapper ${
-              index === activeIndex ? "active" : ""
-            } ${index % 2 === 0 ? "up" : "down"}`}
-            onClick={() => handleSetIndex(index)}
-          >
-            <img
-              src={item.image}
-              className="testimonial-avatar"
-              alt={item.name}
-            />
-          </div>
-        ))}
-      </div>
 
       <div className="testimonial-box" data-aos="fade-up" data-aos-delay="400">
         <button
