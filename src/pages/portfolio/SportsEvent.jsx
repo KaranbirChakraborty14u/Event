@@ -26,14 +26,14 @@ import largeformateevent18 from "../../assets/Sports/IPL_Mayfair/2.jpg";
 import largeformateevent19 from "../../assets/Sports/IPL_Mayfair/3.jpg";
 import largeformateevent20 from "../../assets/Sports/IPL_Mayfair/4.jpg";
 import largeformateevent21 from "../../assets/Sports/IPL_Mayfair/5.jpg";
-import largeformateevent22 from "../../assets/Sports/ipl_stadium/1.jpg";
-import largeformateevent23 from "../../assets/Sports/ipl_stadium/2.jpg";
-import largeformateevent24 from "../../assets/Sports/ipl_stadium/3.jpg";
-import largeformateevent25 from "../../assets/Sports/ipl_stadium/4.jpg";
-import largeformateevent26 from "../../assets/Sports/ipl_stadium/5.jpg";
-import largeformateevent27 from "../../assets/Sports/ipl_stadium/6.jpg";
-import largeformateevent28 from "../../assets/Sports/ipl_stadium/7.jpg";
-import largeformateevent29 from "../../assets/Sports/ipl_stadium/8.jpg";
+// import largeformateevent22 from "../../assets/Sports/ipl_stadium/1.jpg";
+// import largeformateevent23 from "../../assets/Sports/ipl_stadium/2.jpg";
+// import largeformateevent24 from "../../assets/Sports/ipl_stadium/3.jpg";
+// import largeformateevent25 from "../../assets/Sports/ipl_stadium/4.jpg";
+// import largeformateevent26 from "../../assets/Sports/ipl_stadium/5.jpg";
+// import largeformateevent27 from "../../assets/Sports/ipl_stadium/6.jpg";
+// import largeformateevent28 from "../../assets/Sports/ipl_stadium/7.jpg";
+// import largeformateevent29 from "../../assets/Sports/ipl_stadium/8.jpg";
 
 const largeformateevent = [
   { img: largeformateevent1, title: "BORDOLOI TROPHY" },
@@ -57,14 +57,14 @@ const largeformateevent = [
   { img: largeformateevent19 },
   { img: largeformateevent20 },
   { img: largeformateevent21 },
-  { img: largeformateevent22, title: "IPL STADIUM" },
-  { img: largeformateevent23 },
-  { img: largeformateevent24 },
-  { img: largeformateevent25 },
-  { img: largeformateevent26 },
-  { img: largeformateevent27 },
-  { img: largeformateevent28 },
-  { img: largeformateevent29 },
+  // { img: largeformateevent22, title: "IPL STADIUM" },
+  // { img: largeformateevent23 },
+  // { img: largeformateevent24 },
+  // { img: largeformateevent25 },
+  // { img: largeformateevent26 },
+  // { img: largeformateevent27 },
+  // { img: largeformateevent28 },
+  // { img: largeformateevent29 },
 ];
 
 const SportsEvent = () => {
@@ -127,7 +127,7 @@ const SportsEvent = () => {
         {renderPatternGroup(7, 8, 10)}
         {renderPatternGroup(11, 13, 15)}
         {renderPatternGroup(16, 18, 20)}
-        {renderPatternGroup(21, 23, 26)}
+        {/* {renderPatternGroup(21, 23, 26)} */}
 
         <div className="lifestyle-cta">
           <h2>Let’s Curate a Sports Journey</h2>
