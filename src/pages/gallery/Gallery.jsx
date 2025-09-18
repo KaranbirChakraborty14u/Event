@@ -25,7 +25,7 @@ import img19 from "../../assets/Sports/IPL_Stadium/1.jpg";
 import img20 from "../../assets/Website/AUDI/1.jpg";
 import img21 from "../../assets/Website/AUDI/3.jpg";
 import img22 from "../../assets/Sports/IPL_Mayfair/5.jpg";
-import img23 from "../../assets/Sports/IPL_STADIUM/1.jpg";
+import img23 from "../../assets/Sports/IPL_STADIUM/5.jpg";
 
 const images = [
   img1,
