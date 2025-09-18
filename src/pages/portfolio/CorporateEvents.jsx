@@ -6,7 +6,7 @@ import "./largeformateevent.css";
 import { Link } from "react-router-dom";
 
 // Imporargeformateeventstyle images
-import corporateevent1 from "../../assets/Aarohan_iPro_Meet/1.JPEG";
+import corporateevent1 from "../../assets/Aarohan_iPro_Meet/1.jpeg";
 import corporateevent2 from "../../assets/Aarohan_iPro_Meet/2.JPG";
 import corporateevent3 from "../../assets/Aarohan_iPro_Meet/3.JPG";
 import corporateevent4 from "../../assets/Aarohan_iPro_Meet/4.jpeg";
