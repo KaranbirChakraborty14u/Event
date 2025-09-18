@@ -17,7 +17,7 @@ import corporateevent7 from "../../assets/Website/ARMY_CAMP_CHANGSARI/2.jpeg";
 import corporateevent8 from "../../assets/Website/ARMY_CAMP_CHANGSARI/3.jpeg";
 import corporateevent9 from "../../assets/Website/ARMY_CAMP_CHANGSARI/4.jpeg";
 
-import corporateevent10 from "../../assets/Website/AT LIVE BRANDING/1.jpeg";
+import corporateevent10 from "../../assets/Website/AT_LIVE_BRANDING/1.jpeg";
 
 import corporateevent11 from "../../assets/Website/AUDI/1.jpg";
 import corporateevent12 from "../../assets/Website/AUDI/2.jpg";
@@ -30,7 +30,7 @@ import corporateevent17 from "../../assets/DELL_Technologies/2.JPG";
 import corporateevent18 from "../../assets/DELL_Technologies/3.JPG";
 import corporateevent19 from "../../assets/DELL_Technologies/4.JPG";
 
-import corporateevent20 from "../../assets/Website/IPhone 16e launch/1.jpeg";
+import corporateevent20 from "../../assets/Website/IPhone_16e_launch/1.jpeg";
 
 import corporateevent21 from "../../assets/Website/Mayfair_Family_Day/1.jpeg";
 import corporateevent22 from "../../assets/Website/Mayfair_Family_Day/2.jpeg";
@@ -42,7 +42,7 @@ import corporateevent26 from "../../assets/Website/Pulsar_Mania/2.jpeg";
 import corporateevent27 from "../../assets/Website/Pulsar_Mania/3.jpeg";
 import corporateevent28 from "../../assets/Website/Pulsar_Mania/4.jpeg";
 
-import corporateevent29 from "../../assets/Website/RS DURGA PUJA PANDAL/1.jpg";
+import corporateevent29 from "../../assets/Website/RS_DURGA_PUJA_PANDAL/1.jpg";
 
 import corporateevent30 from "../../assets/TERI_Golden_Jubilee/1.jpg";
 import corporateevent31 from "../../assets/TERI_Golden_Jubilee/2.jpg";
