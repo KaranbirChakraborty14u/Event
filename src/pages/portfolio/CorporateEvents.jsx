@@ -12,10 +12,10 @@ import corporateevent3 from "../../assets/Aarohan_iPro_Meet/3.JPG";
 import corporateevent4 from "../../assets/Aarohan_iPro_Meet/4.jpeg";
 import corporateevent5 from "../../assets/Aarohan_iPro_Meet/5.JPG";
 
-import corporateevent6 from "../../assets/Website/ARMY CAMP CHANGSARI/1.jpeg";
-import corporateevent7 from "../../assets/Website/ARMY CAMP CHANGSARI/2.jpeg";
-import corporateevent8 from "../../assets/Website/ARMY CAMP CHANGSARI/3.jpeg";
-import corporateevent9 from "../../assets/Website/ARMY CAMP CHANGSARI/4.jpeg";
+import corporateevent6 from "../../assets/Website/ARMY_CAMP_CHANGSARI/1.jpeg";
+import corporateevent7 from "../../assets/Website/ARMY_CAMP_CHANGSARI/2.jpeg";
+import corporateevent8 from "../../assets/Website/ARMY_CAMP_CHANGSARI/3.jpeg";
+import corporateevent9 from "../../assets/Website/ARMY_CAMP_CHANGSARI/4.jpeg";
 
 import corporateevent10 from "../../assets/Website/AT LIVE BRANDING/1.jpeg";
 
@@ -32,15 +32,15 @@ import corporateevent19 from "../../assets/DELL_Technologies/4.JPG";
 
 import corporateevent20 from "../../assets/Website/IPhone 16e launch/1.jpeg";
 
-import corporateevent21 from "../../assets/Website/Mayfair Family Day/1.jpeg";
-import corporateevent22 from "../../assets/Website/Mayfair Family Day/2.jpeg";
-import corporateevent23 from "../../assets/Website/Mayfair Family Day/3.jpeg";
-import corporateevent24 from "../../assets/Website/Mayfair Family Day/4.jpeg";
+import corporateevent21 from "../../assets/Website/Mayfair_Family_Day/1.jpeg";
+import corporateevent22 from "../../assets/Website/Mayfair_Family_Day/2.jpeg";
+import corporateevent23 from "../../assets/Website/Mayfair_Family_Day/3.jpeg";
+import corporateevent24 from "../../assets/Website/Mayfair_Family_Day/4.jpeg";
 
-import corporateevent25 from "../../assets/Website/Pulsar Mania/1.jpeg";
-import corporateevent26 from "../../assets/Website/Pulsar Mania/2.jpeg";
-import corporateevent27 from "../../assets/Website/Pulsar Mania/3.jpeg";
-import corporateevent28 from "../../assets/Website/Pulsar Mania/4.jpeg";
+import corporateevent25 from "../../assets/Website/Pulsar_Mania/1.jpeg";
+import corporateevent26 from "../../assets/Website/Pulsar_Mania/2.jpeg";
+import corporateevent27 from "../../assets/Website/Pulsar_Mania/3.jpeg";
+import corporateevent28 from "../../assets/Website/Pulsar_Mania/4.jpeg";
 
 import corporateevent29 from "../../assets/Website/RS DURGA PUJA PANDAL/1.jpg";
 
@@ -51,12 +51,12 @@ import corporateevent33 from "../../assets/TERI_Golden_Jubilee/4.jpg";
 import corporateevent34 from "../../assets/TERI_Golden_Jubilee/5.jpg";
 import corporateevent35 from "../../assets/TERI_Golden_Jubilee/6.jpg";
 
-import corporateevent36 from "../../assets/Toyota Training Programe/1.jpg";
-import corporateevent37 from "../../assets/Toyota Training Programe/2.jpg";
-import corporateevent38 from "../../assets/Toyota Training Programe/3.jpg";
-import corporateevent39 from "../../assets/Toyota Training Programe/4.jpg";
-import corporateevent40 from "../../assets/Toyota Training Programe/5.jpg";
-import corporateevent41 from "../../assets/Toyota Training Programe/6.jpg";
+import corporateevent36 from "../../assets/Toyota_Training_Programe/1.jpg";
+import corporateevent37 from "../../assets/Toyota_Training_Programe/2.jpg";
+import corporateevent38 from "../../assets/Toyota_Training_Programe/3.jpg";
+import corporateevent39 from "../../assets/Toyota_Training_Programe/4.jpg";
+import corporateevent40 from "../../assets/Toyota_Training_Programe/5.jpg";
+import corporateevent41 from "../../assets/Toyota_Training_Programe/6.jpg";
 
 const corporateevent = [
   { img: corporateevent1, title: "Aarohan 2024 - iPro Meet" },
