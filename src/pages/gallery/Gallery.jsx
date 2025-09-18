@@ -3,6 +3,7 @@ import Masonry from 'react-masonry-css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './gallery.css';
+
 import img1 from "../../assets/Weddings/Chirag_Surabhi/1.jpg";
 import img2 from "../../assets/Weddings/Chirag_Surabhi/2.jpg";
 import img3 from "../../assets/Weddings/Chirag_Surabhi/3.jpg";
@@ -28,31 +29,12 @@ import img22 from "../../assets/Sports/IPL_Mayfair/5.jpg";
 import img23 from "../../assets/Sports/ipl_stadium/5.jpg";
 
 const images = [
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
-  img11,
-  img12,
-  img13,
-  img14,
-  img15,
-  img16,
-  img17,
-  img18,
-  img19,
-  img20,
-  img21,
-  img22,
-  img23,
+  img1, img2, img3, img4, img5,
+  img6, img7, img8, img9, img10,
+  img11, img12, img13, img14, img15,
+  img16, img17, img18, img19, img20,
+  img21, img22, img23,
 ];
-
 
 const breakpointColumnsObj = {
   default: 4,

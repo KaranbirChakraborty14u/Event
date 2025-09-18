@@ -5,7 +5,6 @@ import Footer from "../../components/footer/Footer";
 import "./largeformateevent.css";
 import { Link } from "react-router-dom";
 
-// Imporargeformateeventstyle image
 import largeformateevent1 from "../../assets/Sports/BORDOLOI_TROPHY/1.jpeg";
 import largeformateevent2 from "../../assets/Sports/BORDOLOI_TROPHY/2.jpg";
 import largeformateevent3 from "../../assets/Sports/BORDOLOI_TROPHY/3.jpg";
@@ -71,10 +70,9 @@ const largeformateevent = [
 const SportsEvent = () => {
   useEffect(() => {
     AOS.init({ duration: 800, once: false });
-    window.scrollTo(0, 0); // Always start from top
+    window.scrollTo(0, 0);
   }, []);
 
-  // Helper to render one group: 1 big image + several small images
   const renderPatternGroup = (bigIndex, smallStart, smallEnd) => (
     <div className="lifestyle-section-pattern" key={`pattern-${bigIndex}`}>
       <div className="lifestyle-big" data-aos="fade-up">
@@ -113,14 +111,8 @@ const SportsEvent = () => {
       <section className="lifestyle-events">
         <div className="lifestyle-header">
           <p className="lifestyle-breadcrumb">
-            <Link to="/" className="breadcrumb-link">
-              HOMEPAGE
-            </Link>{" "}
-            /{" "}
-            <Link to="/portfolio" className="breadcrumb-link">
-              PORTFOLIO
-            </Link>{" "}
-            / SPORTS EVENTS
+            <Link to="/" className="breadcrumb-link">HOMEPAGE</Link> /{" "}
+            <Link to="/portfolio" className="breadcrumb-link">PORTFOLIO</Link> / SPORTS EVENTS
           </p>
           <h1>
             Curated <span>Sports Moments</span>
@@ -131,27 +123,16 @@ const SportsEvent = () => {
           </p>
         </div>
 
-        {/* Group 1: big (0), small (1–6) */}
         {renderPatternGroup(0, 1, 6)}
-
-        {/* Group 2: big (7), small (8–11) */}
         {renderPatternGroup(7, 8, 10)}
-
-        {/* Group 3: big (12), small (13–16) */}
         {renderPatternGroup(11, 13, 15)}
-
-        {/* Group 4: big (17), small (18–21) */}
         {renderPatternGroup(16, 18, 20)}
-
-        {/* Group 5: big (22), small (23–26) */}
         {renderPatternGroup(21, 23, 26)}
 
-        {/* CTA Section */}
         <div className="lifestyle-cta">
           <h2>Let’s Curate a Sports Journey</h2>
           <p>
-            Sophisticated, soulful, and story-driven experiences await your
-            audience.
+            Sophisticated, soulful, and story-driven experiences await your audience.
           </p>
           <a href="/contact" className="lifestyle-cta-button">
             Collaborate With Us →
