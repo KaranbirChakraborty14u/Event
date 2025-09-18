@@ -6,20 +6,20 @@ import "./mice.css";
 import { Link } from "react-router-dom";
 
 // === NGO Images ===
-import ngo1 from "../../assets/NGO Associations/12th EHNF & BFA/BALIPARA EHNF DAY/1.jpg";
-import ngo2 from "../../assets/NGO Associations/12th EHNF & BFA/BALIPARA EHNF DAY/2.jpg";
-import ngo3 from "../../assets/NGO Associations/12th EHNF & BFA/BALIPARA EHNF DAY/3.jpg";
-import ngo4 from "../../assets/NGO Associations/12th EHNF & BFA/BALIPARA EHNF DAY/4.jpg";
-import ngo5 from "../../assets/NGO Associations/12th EHNF & BFA/BALIPARA EHNF DAY/5.jpg";
-import ngo6 from "../../assets/NGO Associations/12th EHNF & BFA/BALIPARA EHNF DAY/6.jpg";
-import ngo7 from "../../assets/NGO Associations/12th EHNF & BFA/BALIPARA EHNF DAY/7.jpg";
+import ngo1 from "../../assets/NGO_Associations/12th_EHNF_BFA/BALIPARA_EHNF_DAY/1.jpg";
+import ngo2 from "../../assets/NGO_Associations/12th_EHNF_BFA/BALIPARA_EHNF_DAY/2.jpg";
+import ngo3 from "../../assets/NGO_Associations/12th_EHNF_BFA/BALIPARA_EHNF_DAY/3.jpg";
+import ngo4 from "../../assets/NGO_Associations/12th_EHNF_BFA/BALIPARA_EHNF_DAY/5.jpg";
+import ngo5 from "../../assets/NGO_Associations/12th_EHNF_BFA/BALIPARA_EHNF_DAY/4.jpg";
+import ngo6 from "../../assets/NGO_Associations/12th_EHNF_BFA/BALIPARA_EHNF_DAY/6.jpg";
+import ngo7 from "../../assets/NGO_Associations/12th_EHNF_BFA/BALIPARA_EHNF_DAY/7.jpg";
 
-import ngo8 from "../../assets/NGO Associations/Apne Apne Ram/1.JPG";
-import ngo9 from "../../assets/NGO Associations/Apne Apne Ram/2.JPG";
-import ngo10 from "../../assets//NGO Associations/Apne Apne Ram/3.JPG";
-import ngo11 from "../../assets//NGO Associations/Apne Apne Ram/4.JPG";
-import ngo12 from "../../assets//NGO Associations/Apne Apne Ram/5.JPG";
-import ngo13 from "../../assets//NGO Associations/Apne Apne Ram/6.JPG";
+import ngo8 from "../../assets/NGO_Associations/Apne_Apne_Ram/1.JPG";
+import ngo9 from "../../assets/NGO_Associations/Apne_Apne_Ram/2.JPG";
+import ngo10 from "../../assets/NGO_Associations/Apne_Apne_Ram/3.JPG";
+import ngo11 from "../../assets/NGO_Associations/Apne_Apne_Ram/4.JPG";
+import ngo12 from "../../assets/NGO_Associations/Apne_Apne_Ram/5.JPG";
+import ngo13 from "../../assets/NGO_Associations/Apne_Apne_Ram/6.JPG";
 
 // === NGO Projects Array ===
 const ngoProjects = [

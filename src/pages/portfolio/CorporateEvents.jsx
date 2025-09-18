@@ -6,11 +6,11 @@ import "./largeformateevent.css";
 import { Link } from "react-router-dom";
 
 // Imporargeformateeventstyle images
-import corporateevent1 from "../../assets/Aarohan 2024 - iPro Meet/1.jpeg";
-import corporateevent2 from "../../assets/Aarohan 2024 - iPro Meet/2.JPG";
-import corporateevent3 from "../../assets/Aarohan 2024 - iPro Meet/3.JPG";
-import corporateevent4 from "../../assets/Aarohan 2024 - iPro Meet/4.jpeg";
-import corporateevent5 from "../../assets/Aarohan 2024 - iPro Meet/5.JPG";
+import corporateevent1 from "../../assets/Aarohan_iPro_Meet/1.JPEG";
+import corporateevent2 from "../../assets/Aarohan_iPro_Meet/2.JPG";
+import corporateevent3 from "../../assets/Aarohan_iPro_Meet/3.JPG";
+import corporateevent4 from "../../assets/Aarohan_iPro_Meet/4.jpeg";
+import corporateevent5 from "../../assets/Aarohan_iPro_Meet/5.JPG";
 
 import corporateevent6 from "../../assets/Website/ARMY CAMP CHANGSARI/1.jpeg";
 import corporateevent7 from "../../assets/Website/ARMY CAMP CHANGSARI/2.jpeg";
@@ -25,10 +25,10 @@ import corporateevent13 from "../../assets/Website/AUDI/3.jpg";
 import corporateevent14 from "../../assets/Website/AUDI/4.jpg";
 import corporateevent15 from "../../assets/Website/AUDI/5.jpg";
 
-import corporateevent16 from "../../assets/DELL Technologies/1.JPG";
-import corporateevent17 from "../../assets/DELL Technologies/2.JPG";
-import corporateevent18 from "../../assets/DELL Technologies/3.JPG";
-import corporateevent19 from "../../assets/DELL Technologies/4.JPG";
+import corporateevent16 from "../../assets/DELL_Technologies/1.JPG";
+import corporateevent17 from "../../assets/DELL_Technologies/2.JPG";
+import corporateevent18 from "../../assets/DELL_Technologies/3.JPG";
+import corporateevent19 from "../../assets/DELL_Technologies/4.JPG";
 
 import corporateevent20 from "../../assets/Website/IPhone 16e launch/1.jpeg";
 
@@ -44,12 +44,12 @@ import corporateevent28 from "../../assets/Website/Pulsar Mania/4.jpeg";
 
 import corporateevent29 from "../../assets/Website/RS DURGA PUJA PANDAL/1.jpg";
 
-import corporateevent30 from "../../assets/TERI Golden Jubilee - Vivanta, Guwahati - 25th November 2024/1.jpg";
-import corporateevent31 from "../../assets/TERI Golden Jubilee - Vivanta, Guwahati - 25th November 2024/2.jpg";
-import corporateevent32 from "../../assets/TERI Golden Jubilee - Vivanta, Guwahati - 25th November 2024/3.jpg";
-import corporateevent33 from "../../assets/TERI Golden Jubilee - Vivanta, Guwahati - 25th November 2024/4.jpg";
-import corporateevent34 from "../../assets/TERI Golden Jubilee - Vivanta, Guwahati - 25th November 2024/5.jpg";
-import corporateevent35 from "../../assets/TERI Golden Jubilee - Vivanta, Guwahati - 25th November 2024/6.jpg";
+import corporateevent30 from "../../assets/TERI_Golden_Jubilee/1.jpg";
+import corporateevent31 from "../../assets/TERI_Golden_Jubilee/2.jpg";
+import corporateevent32 from "../../assets/TERI_Golden_Jubilee/3.jpg";
+import corporateevent33 from "../../assets/TERI_Golden_Jubilee/4.jpg";
+import corporateevent34 from "../../assets/TERI_Golden_Jubilee/5.jpg";
+import corporateevent35 from "../../assets/TERI_Golden_Jubilee/6.jpg";
 
 import corporateevent36 from "../../assets/Toyota Training Programe/1.jpg";
 import corporateevent37 from "../../assets/Toyota Training Programe/2.jpg";
