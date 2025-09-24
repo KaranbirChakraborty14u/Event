@@ -68,7 +68,7 @@ const corporateevent = [
   { img: corporateevent7 },
   { img: corporateevent8 },
   { img: corporateevent9 },
-  { img: corporateevent10, title: "AT LIVE BRANDING" },
+  { img: corporateevent10, title: "Brahmaputra Carnival LIVE BRANDING" },
   { img: corporateevent11, title: "AUDI" },
   { img: corporateevent12 },
   { img: corporateevent13 },

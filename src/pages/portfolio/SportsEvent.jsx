@@ -47,7 +47,7 @@ const largeformateevent = [
   { img: largeformateevent9 },
   { img: largeformateevent10 },
   { img: largeformateevent11 },
-  { img: largeformateevent12, title: "GFPL" },
+  { img: largeformateevent12, title: "Guwahati Premier Football League 2024" },
   { img: largeformateevent13 },
   { img: largeformateevent14 },
   { img: largeformateevent15 },
