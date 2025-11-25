@@ -16,20 +16,10 @@ const About = () => {
           WELCOME <span>TO</span> KOLLECTIVE
         </h2>
         <p className="about__paragraph">
-          Kollective Events & Xperiences, is a premier experiential marketing
-          company creating immersive, interactive, and memorable brand
-          experiences that engage audiences and drive meaningful connections.
-          From pop-up events and product activations to large-scale experiential
-          campaigns, we craft unique experiences that resonate with consumers
-          and amplify brand loyalty.
+          Kollective Xperiential Private Limited, is a premier experiential marketing company creating immersive, interactive, and memorable brand experiences that engage audiences and drive meaningful connections. From pop-up events and product activations to large-scale experiential campaigns, we craft unique experiences that resonate with consumers and amplify brand loyalty.
         </p>
         <p className="about__paragraph">
-          Kollective Events & Xperiences, is a premier experiential marketing
-          company creating immersive, interactive, and memorable brand
-          experiences that engage audiences and drive meaningful connections.
-          From pop-up events and product activations to large-scale experiential
-          campaigns, we craft unique experiences that resonate with consumers
-          and amplify brand loyalty.
+         Founded by a team of young entrepreneurs, Kollective was born out of a vision to revolutionize the way brands interact with their audiences. With a deep understanding of consumer behaviour and a relentless pursuit of innovation, Kollective set out to create a company that blends creative excellence with strategic insight to deliver unparalleled experiential marketing solutions.
         </p>
 
         <div className="about__quote">

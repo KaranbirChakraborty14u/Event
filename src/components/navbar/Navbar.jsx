@@ -9,7 +9,7 @@ import {
   FaEnvelopeOpen,
   FaCogs,
 } from "react-icons/fa";
-import logoWhite from "../../assets/KOLLECTIVE EVENTS2-011.png";
+import logoWhite from "../../assets/logo2.png";
 import logoBlack from "../../assets/KOLLECTIVE EVENTS2-0111.png";
 
 const Navbar = () => {

@@ -374,3 +374,74 @@
     margin-top: 0;
   }
 }
+
+/* ===========================
+   WHY CHOOSE US – NEW SECTION
+=========================== */
+.why-choose-us {
+  margin-top: 120px;
+  padding: 0 2rem;
+}
+
+.why-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.why-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.why-item {
+  font-size: 1.1rem;
+  color: #d4d4d4;
+  line-height: 1.7;
+  background: #0d0d0d;
+  padding: 1.4rem 1.6rem;
+  border-left: 5px solid #ff9800;
+  border-radius: 6px;
+}
+
+/* ===========================
+   OUR PROCESS – 5 D’s
+=========================== */
+.our-process {
+  margin-top: 100px;
+  padding: 0 2rem;
+}
+
+.process-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+.process-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.process-item {
+  background: #0f0f0f;
+  padding: 1.5rem 1.7rem;
+  border: 1px solid #222;
+  border-radius: 8px;
+}
+
+.process-item h3 {
+  font-size: 1.4rem;
+  color: #ff9800;
+  margin-bottom: 0.6rem;
+}
+
+.process-item p {
+  font-size: 1rem;
+  color: #cfcfcf;
+  line-height: 1.6;
+}

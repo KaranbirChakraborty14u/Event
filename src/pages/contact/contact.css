@@ -157,6 +157,9 @@
   outline: none;
   transition: all 0.3s ease;
 }
+.section-title span {
+  color: blue !important;
+}
 
 .contact-form-input:focus {
   border: 1.8px solid goldenrod;
