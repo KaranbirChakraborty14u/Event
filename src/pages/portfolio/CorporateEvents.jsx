@@ -189,10 +189,10 @@ const CorporateEvents = () => {
         {renderPatternGroup(28, 28, 28)}
 
         {/* Group 8: TERI Golden Jubilee (29), small (30–34) */}
-        {renderPatternGroup(29, 30, 34)}
+        {renderPatternGroup(29, 30, 32)}
 
         {/* Group 9: Toyota Training Programe (35), small (36–40) */}
-        {renderPatternGroup(35, 36, 40)}
+        {renderPatternGroup(35, 36, 39)}
 
         {/* CTA Section */}
         <div className="lifestyle-cta">

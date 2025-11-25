@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/KOLLECTIVE EVENTS2-011.png";
+import logo from "../../assets/KOLLECTIVE EVENTS-01.png";
 import "./footer.css";
 import {
   FaInstagram,

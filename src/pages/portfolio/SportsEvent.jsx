@@ -123,7 +123,7 @@ const SportsEvent = () => {
           </p>
         </div>
 
-        {renderPatternGroup(0, 1, 6)}
+        {renderPatternGroup(0, 1, 4)}
         {renderPatternGroup(7, 8, 10)}
         {renderPatternGroup(11, 13, 15)}
         {renderPatternGroup(16, 18, 20)}
