@@ -33,7 +33,7 @@ const Team = () => {
           <span className="mobile-hide-break">
             <br />
           </span>{" "}
-          Our Team
+          The Team
         </h2>
 
         <p>

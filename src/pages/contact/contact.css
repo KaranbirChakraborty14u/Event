@@ -32,10 +32,10 @@
 
 @keyframes glowBorder {
   0% {
-    box-shadow: 0 0 0px var(--first-color);
+    box-shadow: 0 0 0px #0B3A78; /* changed */
   }
   100% {
-    box-shadow: 0 0 12px var(--first-color-light);
+    box-shadow: 0 0 12px #0B3A78; /* changed */
   }
 }
 
@@ -58,6 +58,10 @@
   font-size: 29px;
   opacity: 0;
   animation-delay: 0.2s;
+}
+
+.section-title span {
+  color: #0B3A78 !important;
 }
 
 /* === Contact Cards === */
@@ -144,7 +148,7 @@
 }
 
 .contact-form-label b {
-  color: var(--first-color);
+  color: #0B3A78; /* changed */
 }
 
 .contact-form-input {
@@ -156,9 +160,6 @@
   border: 2px solid transparent;
   outline: none;
   transition: all 0.3s ease;
-}
-.section-title span {
-  color: blue !important;
 }
 
 .contact-form-input:focus {
@@ -190,7 +191,7 @@
   padding: 0.75rem 1.5rem;
   border-radius: 2rem;
   font-size: 1rem;
-  color: var(--first-color);
+  color: #0B3A78; /* changed */
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   animation: fadeInBottom 0.8s ease forwards;
   z-index: 1000;

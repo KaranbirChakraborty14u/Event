@@ -86,8 +86,8 @@ const Navbar = () => {
       subLinks: [
         { name: "Our Story", path: "/ourstory" },
         // { name: "Our Vision", path: "/ourvision" },
-        { name: "Meet The Founder", path: "/founder" },
-        { name: "Meet Our Team", path: "/team-details" },
+        { name: "Meet Our Founder", path: "/founder" },
+        { name: "Meet The Team", path: "/team-details" },
       ],
     },
     {
