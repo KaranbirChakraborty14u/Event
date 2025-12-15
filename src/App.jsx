@@ -22,22 +22,22 @@ import LifestyleEvents from "./pages/services/LifestyleEvents";
 
 const App = () => {
   
-  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+  // const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const [isScrolling, setIsScrolling] = useState(false);
   const [scrollPercentage, setScrollPercentage] = useState(0);
 
   // Handle mouse movement for custom cursor
-  useEffect(() => {
-    const mouseMoveHandler = (e) => {
-      setCursorPosition({ x: e.clientX, y: e.clientY });
-    };
+  // useEffect(() => {
+  //   const mouseMoveHandler = (e) => {
+  //     setCursorPosition({ x: e.clientX, y: e.clientY });
+  //   };
 
-    window.addEventListener("mousemove", mouseMoveHandler);
+  //   window.addEventListener("mousemove", mouseMoveHandler);
 
-    return () => {
-      window.removeEventListener("mousemove", mouseMoveHandler);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("mousemove", mouseMoveHandler);
+  //   };
+  // }, []);
 
   // Handle scrolling detection and scroll percentage calculation
   useEffect(() => {
@@ -102,13 +102,13 @@ const App = () => {
   return (
     <div>
       <RouterProvider router={router} />
-      <div
+      {/* <div
         className="custom-cursor"
         style={{
           left: `${cursorPosition.x}px`,
           top: isScrolling ? `${cursorPosition.y}px` : "-20px",
         }}
-      />
+      /> */}
       {/* Custom Scrollbar */}
       <div
         className={`custom-scrollbar ${isScrolling ? "active" : ""}`}
