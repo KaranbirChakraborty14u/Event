@@ -37,8 +37,8 @@ const Contact = () => {
       return;
     }
     emailjs
-    .send('service_jrdg6wg', 'template_cwxxh1f', formData,
-     'A7n_3BvpFaaUKmezn'
+    .send('service_gifylak', 'template_hrd521q', formData,
+     'rwzBvDdhUAweZXWgQ'
     )
     .then(
       () => {
