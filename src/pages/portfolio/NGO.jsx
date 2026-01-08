@@ -23,14 +23,14 @@ import ngo13 from "../../assets/NGO_Associations/Apne_Apne_Ram/6.JPG";
 
 // === NGO Projects Array ===
 const ngoProjects = [
-  { img: ngo1, title: "12th EHNF & BFA" },
+  { img: ngo1, title: "12th Eastern Himalyan Naturenomics Forum" },
   { img: ngo2 },
   { img: ngo3 },
   { img: ngo4 },
   { img: ngo5 },
   { img: ngo6 },
   { img: ngo7 },
-  { img: ngo8, title: "Apne Apne Ram" },
+  { img: ngo8, title: "Apne Apne Ram by Dr.Kumar Vishwas" },
   { img: ngo9 },
   { img: ngo10 },
   { img: ngo11 },

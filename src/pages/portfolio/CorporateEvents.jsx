@@ -59,36 +59,36 @@ import corporateevent40 from "../../assets/Toyota_Training_Programe/5.jpg";
 import corporateevent41 from "../../assets/Toyota_Training_Programe/6.jpg";
 
 const corporateevent = [
-  { img: corporateevent1, title: "Aarohan 2024 - iPro Meet" },
+  { img: corporateevent1, title: "AAROHAN-IPRO SPORTS MEET" },
   { img: corporateevent2 },
   { img: corporateevent3 },
   { img: corporateevent4 },
   { img: corporateevent5 },
-  { img: corporateevent6, title: "ARMY CAMP CHANGSARI" },
+  { img: corporateevent6, title: "59th UNIT RAISING DAY OF X ENGINEERING REGIMENT" },
   { img: corporateevent7 },
   { img: corporateevent8 },
   { img: corporateevent9 },
-  { img: corporateevent10, title: "Brahmaputra Carnival LIVE BRANDING" },
-  { img: corporateevent11, title: "AUDI" },
+  { img: corporateevent10, title: "AMIT TRIVEDI LIVE CONCERT(BRANDING)" },
+  { img: corporateevent11, title: "AUDI Q2 LAUNCH" },
   { img: corporateevent12 },
   { img: corporateevent13 },
   { img: corporateevent14 },
   { img: corporateevent15 },
-  { img: corporateevent16, title: "DELL Technologies" },
+  { img: corporateevent16, title: "DELL Technologies & Tech Data Partners Meet" },
   { img: corporateevent17 },
   { img: corporateevent18 },
   { img: corporateevent19 },
-  { img: corporateevent20, title: "IPhone 16e launch" },
+  { img: corporateevent20, title: "IPhone 16e launch across Multiple Stores" },
   { img: corporateevent21, title: "Mayfair Family Day" },
   { img: corporateevent22 },
   { img: corporateevent23 },
   { img: corporateevent24 },
-  { img: corporateevent25, title: "Pulsar Mania" },
+  { img: corporateevent25, title: "Bajaj Pulsar Mania 2.0" },
   { img: corporateevent26 },
   { img: corporateevent27 },
   { img: corporateevent28 },
-  { img: corporateevent29, title: "RS DURGA PUJA PANDAL" },
-  { img: corporateevent30, title: "TERI Golden Jubilee - Vivanta, Guwahati" },
+  { img: corporateevent29, title: "Royal Stag RS Festival Stall" },
+  { img: corporateevent30, title: "TERI Golden Jubilee" },
   { img: corporateevent31 },
   { img: corporateevent32 },
   { img: corporateevent33 },
@@ -180,18 +180,22 @@ const CorporateEvents = () => {
         {renderPatternGroup(15, 16, 18)}
 
         {/* Group 5: IPhone 16e launch (19), small (20–23 → Mayfair Family Day) */}
-        {renderPatternGroup(19, 20, 23)}
+        {renderPatternGroup(19)}
+        
+        {/* Group 6: Mayfair (19), small (20–23 → Mayfair Family Day) */}
+        {renderPatternGroup(20, 21, 23)}
 
-        {/* Group 6: Pulsar Mania (24), small (25–27) */}
+
+        {/* Group 7: Pulsar Mania (24), small (25–27) */}
         {renderPatternGroup(24, 25, 27)}
 
-        {/* Group 7: RS DURGA PUJA PANDAL (28) - single image */}
+        {/* Group 8: RS DURGA PUJA PANDAL (28) - single image */}
         {renderPatternGroup(28, 28, 28)}
 
-        {/* Group 8: TERI Golden Jubilee (29), small (30–34) */}
+        {/* Group 9: TERI Golden Jubilee (29), small (30–34) */}
         {renderPatternGroup(29, 30, 32)}
 
-        {/* Group 9: Toyota Training Programe (35), small (36–40) */}
+        {/* Group 10: Toyota Training Programe (35), small (36–40) */}
         {renderPatternGroup(35, 36, 39)}
 
         {/* CTA Section */}

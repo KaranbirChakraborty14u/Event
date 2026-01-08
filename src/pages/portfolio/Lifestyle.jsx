@@ -60,7 +60,7 @@ import lifestyle52 from "../../assets/Weddings/Taj_Wedding/5.jpg";
 import lifestyle53 from "../../assets/Weddings/Taj_Wedding/6.jpg";
 
 const lifestyleEvents = [
-  { img: lifestyle1, title: "Chirag + Surabhi" },
+  { img: lifestyle1, title: "Chirag weds Surabhi" },
   { img: lifestyle2 },
   { img: lifestyle3 },
   { img: lifestyle4 },
@@ -73,7 +73,7 @@ const lifestyleEvents = [
   { img: lifestyle11 },
   { img: lifestyle12 },
   { img: lifestyle13 },
-  { img: lifestyle14, title: "Prianca + Punit (26th Nov 22)" },
+  { img: lifestyle14, title: "Prianca weds Punit" },
   { img: lifestyle15 },
   { img: lifestyle16 },
   { img: lifestyle17 },
@@ -86,7 +86,7 @@ const lifestyleEvents = [
   { img: lifestyle24 },
   { img: lifestyle25 },
   { img: lifestyle26 },
-  { img: lifestyle27, title: "Riya + Shubham (10th May 22)" },
+  { img: lifestyle27, title: "Riya weds Shubham" },
   { img: lifestyle28 },
   { img: lifestyle29 },
   { img: lifestyle30 },
@@ -94,7 +94,7 @@ const lifestyleEvents = [
   { img: lifestyle32 },
   { img: lifestyle33 },
   { img: lifestyle34 },
-  { img: lifestyle35, title: "Rohit Himanshi Wedding Decor" },
+  { img: lifestyle35, title: "Rohit and Himanshi Wedding Decor" },
   { img: lifestyle36 },
   { img: lifestyle37 },
   { img: lifestyle38 },
@@ -102,7 +102,7 @@ const lifestyleEvents = [
   { img: lifestyle40 },
   {
     img: lifestyle41,
-    title: "Sandeep _ Binita (18th December 2022) - Guwahati, Assam",
+    title: "Sandeep weds Binita",
   },
   { img: lifestyle42 },
   { img: lifestyle43 },
